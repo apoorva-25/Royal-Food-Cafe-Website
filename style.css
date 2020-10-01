@@ -66,7 +66,14 @@ h3{
 .card{
     width: 250px;
     height: auto !important;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    box-shadow: 5px #333333;
+
+}
+
+.card:hover{
+    box-shadow: 10px 10px 30px #333333;
 }
 
 .card-text{
@@ -111,4 +118,32 @@ h3{
 
 h4{
     color: #fff;
+}
+
+/* code addition */
+
+#about{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(images/cafe.jpg) !important;
+    background-size:cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding:20px;
+    margin: 20px;
+}
+
+#about h1{
+    text-align: center;
+}
+
+#about h1::after{
+    content:"";
+    background: #efefef;
+    height: 3px;
+    width: 300px;
+    margin: 20px autp 5px;
+}
+
+#contact .fa{
+    padding:10px;
 }
