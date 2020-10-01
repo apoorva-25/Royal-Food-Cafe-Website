@@ -1,5 +1,5 @@
 body{
-    background-color: #FFE57F;
+    background-color: pink;
 }
 
 .navbar{
@@ -17,11 +17,16 @@ body{
     font-family: cursive;
 }
 
+.nav-link:hover {
+    background-color: steelblue;
+    border-radius: 30%;    
+}
+
 .tagLine{
     background-color: #E3F2FD;
+    padding: 20px 0px;
     font-size: 2em;
     border: 2px solid #880E4F;
-    padding-bottom:4px;
 }
 
 .fa-user-circle,.fa-cutlery{
@@ -32,7 +37,7 @@ body{
     font-size: 50px !important;
     margin-right: 10px;
     color: #3F51B5 !important;
-    background-color: aqua;
+    background-color: #CCFF90;
 }
 
 .card1,.card2,.card3{
@@ -45,7 +50,6 @@ body{
     align-items: center;
     margin-top: 10px;
     border: 4px solid #2E7D32;
-    border-radius: 15%;
 }
 
 .mainCard{
@@ -68,56 +72,62 @@ h3{
 .card{
     width: 250px;
     height: auto !important;
-    margin-bottom: 5px;
-    margin-top:20px;
+    border-radius: 20%;
+    margin-bottom: 40px;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.5);
 }
 
 .card-text{
     font-weight: bold;
 }
 
-.card-img-top{
-    height: 170px;
+.card-img-top {
+    border-radius: 22%;
+    margin-bottom: 40px;
+    height: 150px;
+    width: 250px;
+}
+
+.card-img-top:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
 }
 
 .btn-primary{
     width: 100%;
     background-color: #3F51B5;
+    border-radius: 15%;
 }
 
 .heading{
+    padding: 10px;
     text-align: center;
     font-size: bold;
     background-color: #80DEEA;
     color: #4A148C;
-    margin: 20px;
+    margin: 40px;
     border: 4px solid #4A148C;
 }
 
 .design{
+    padding: 20px 40px;
+    font-style: italic;
     text-align: center;
     background-color: #80DEEA;
     color: #880E4F;
-    padding-bottom:4px;
-}
-
-.design-container{
-    background-color: #80DEEA;
-    padding-left: 20%;
-    padding-right:20%;
-    padding-bottom:20px;
-    padding-top:20px;
 }
 
 .heading > h1{
-    text-shadow: 2px 2px 4px white;
+    text-shadow: 1px 1px 3px black;
 }
 
 .footer{
-    margin-top:20px;
+    padding: 30px 20px;
     width: 100%;
     background-color: #80DEEA;
-    height: 70px;
+    height: 120px;
 }
 
 .footer > div{
