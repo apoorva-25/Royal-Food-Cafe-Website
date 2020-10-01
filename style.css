@@ -1,140 +1,153 @@
-body{
-    background-color: pink;
+body {
+  background-color: pink;
 }
 
-.navbar{
-    background-color: #80DEEA !important;
+.navbar {
+  background-color: #80deea !important;
 }
 
-.nav-link{
-    color: #880E4F !important;
-    font-weight: bold;
-   
-    margin-top: 10px;
-    font-size: 25px;
-    margin-left: 30px;
-    
-    font-family: cursive;
+.nav-link {
+  color: #880e4f !important;
+
+  font-weight: bold;
+
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: 30px;
+
+  font-family: cursive;
 }
 
 .nav-link:hover {
-    background-color: steelblue;
-    border-radius: 30%;    
+  background-color: #880e4f;
+  border-radius: 10px;
+  color: #fff !important;
 }
 
-.tagLine{
-    background-color: #E3F2FD;
-    padding: 20px 0px;
-    font-size: 2em;
-    border: 2px solid #880E4F;
+.tagLine {
+  background-color: #e3f2fd;
+  padding: 20px 0px;
+  font-size: 2em;
+  border: 2px solid #880e4f;
 }
 
-.fa-user-circle,.fa-cutlery{
-    font-size: 32px !important;
+.fa-user-circle,
+.fa-cutlery {
+  font-size: 32px !important;
 }
 
-.fa-truck,.fa-headphones,.fa-thumbs-up{
-    font-size: 50px !important;
-    margin-right: 10px;
-    color: #3F51B5 !important;
-    background-color: #CCFF90;
+.fa-truck,
+.fa-headphones,
+.fa-thumbs-up {
+  font-size: 50px !important;
+  margin-right: 10px;
+  color: #3f51b5 !important;
+  background-color: #ccff90;
 }
 
-.card1,.card2,.card3{
-    display: flex;
-    width: 300px;
-    height: 100px;
-    background-color: #CCFF90;
-    box-shadow: 2px 4px 5px grey;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    border: 4px solid #2E7D32;
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  background-color: #ccff90;
+  box-shadow: 2px 4px 5px grey;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 4px solid #2e7d32;
 }
 
-.mainCard{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.mainCard {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-
-h3{
-    color: #3F51B5;
+h3 {
+  color: #3f51b5;
 }
 
-.breakFast,.riceBowl,.chicken,.crezyBeef,.burger,.cake,.juice,.featuredProducts{
-    margin-top: 50px;
+.breakFast,
+.riceBowl,
+.chicken,
+.crezyBeef,
+.burger,
+.cake,
+.juice,
+.featuredProducts {
+  margin-top: 50px;
 }
 
-.card{
-    width: 250px;
-    height: auto !important;
-    border-radius: 20%;
-    margin-bottom: 40px;
+.card {
+  width: 250px;
+  height: auto !important;
+  border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .card:hover {
-    box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 3px 5px rgba(73, 80, 87, 0.5);
 }
 
-.card-text{
-    font-weight: bold;
+.card-text {
+  font-weight: bold;
 }
 
 .card-img-top {
-    border-radius: 22%;
-    margin-bottom: 40px;
-    height: 150px;
-    width: 250px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 40px;
+  height: 150px;
+  width: 250px;
 }
 
-.card-img-top:hover {
-    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+/* .card-img-top:hover {
+  box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+} */
+
+.btn-primary {
+  width: 100%;
+  background-color: #3f51b5;
+  border-radius: 5px;
 }
 
-.btn-primary{
-    width: 100%;
-    background-color: #3F51B5;
-    border-radius: 15%;
+.heading {
+  padding: 10px;
+  text-align: center;
+  font-size: bold;
+  background-color: #80deea;
+  color: #4a148c;
+  margin: 40px;
+  border: 4px solid #4a148c;
 }
 
-.heading{
-    padding: 10px;
-    text-align: center;
-    font-size: bold;
-    background-color: #80DEEA;
-    color: #4A148C;
-    margin: 40px;
-    border: 4px solid #4A148C;
+.design {
+  padding: 20px 40px;
+  font-style: italic;
+  text-align: center;
+  background-color: #80deea;
+  color: #880e4f;
 }
 
-.design{
-    padding: 20px 40px;
-    font-style: italic;
-    text-align: center;
-    background-color: #80DEEA;
-    color: #880E4F;
+.heading > h1 {
+  text-shadow: 1px 1px 3px black;
 }
 
-.heading > h1{
-    text-shadow: 1px 1px 3px black;
+.footer {
+  padding: 30px 20px;
+  width: 100%;
+  background-color: #80deea;
+  height: 120px;
 }
 
-.footer{
-    padding: 30px 20px;
-    width: 100%;
-    background-color: #80DEEA;
-    height: 120px;
+.footer > div {
+  text-align: center !important;
+  align-items: center;
 }
 
-.footer > div{
-    text-align: center !important;
-    align-items: center;
-}
-
-h4{
-    color: #fff;
+h4 {
+  color: #fff;
 }
